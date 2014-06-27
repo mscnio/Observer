@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Observer
 {
-    public partial class Subjekt
+    public class Subjekt
     {
         // liste zum speichern der abonnentennamen
         private HashSet<Beobachter> Beobachter = new HashSet<Beobachter>();
